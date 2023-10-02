@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html oncopy="return false" oncut="return false" oncontextmenu="return false">
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -7,12 +7,12 @@
 	<link rel="stylesheet" type="text/css" href="bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="concentration.css">
 	<script type="text/javascript" src="concent.js"></script>
-
+<style type="text/css"></style>
 </head>
-<body>
+<body background="images/chemi.jpg"  style="background-repeat: no-repeat;background-size: cover;" id="">
 
 <div class="container-fluid">
-	<select onchange="concen(this.value)">
+	<select onchange="concen(this.value)" id="mai">
 		<option value="molal">--select--</option>
 
 	<option value="mol">molarity</option>
@@ -75,7 +75,7 @@
 <div class="row">
 	<center>
 	<div class="col-12">
-	<button class=" col-8 btn  bg-info" onclick="caluclate()">caluclate</button>
+	<button class=" col-6 btn  bg-info" onclick="caluclate()">caluclate</button>
 		</div>
 </center>
 	</div>
