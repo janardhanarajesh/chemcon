@@ -22,7 +22,7 @@ let grm=(weight.value*1000)/(molarity.value*volume.value)
 	}
 	else if(weight.value=="")
 	{
-		let mass=(molarity.value*gmwt.value*vol.value)/1000;
+		let mass=(molarity.value*gmwt.value*volume.value)/1000;
 		weight.value=mass;
 	}
 	else{
