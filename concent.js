@@ -32,7 +32,7 @@ gewt=60.05;
 gewt=63;
 }else if(val==6)
 {
-gewt=20;
+gewt=40;
 }
 else if(val==7)
 {
