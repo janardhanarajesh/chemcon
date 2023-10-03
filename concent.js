@@ -87,7 +87,7 @@ caluclate=()=>
 	
 	else if(volume.value=="")
 	{
-		let vol=(weight.value*1000)/(molarity.value*gewt)
+		let vol=(weight.value*1000)/(normality.value*gewt)
 		vol.value=vol;
 
 	}
