@@ -81,14 +81,14 @@ caluclate=()=>
 {
 	if(normality.value=="")
 	{
-		let mol=(weight.value*1000)/(gewt*volume.value)
+		let mol=(weight.value*1000)/(gewt*vol.value)
 		normality.value=mol;
 	}
 	
 	else if(volume.value=="")
 	{
 		let vol=(weight.value*1000)/(molarity.value*gewt)
-		volume.value=vol;
+		vol.value=vol;
 
 	}
 	else if(weight.value=="")
