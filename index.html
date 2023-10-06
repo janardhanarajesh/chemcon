@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html oncopy="return false" oncut="return false" oncontextmenu="return false" >
+<html oncopy="return false" oncut="return false" >
+<!-- oncontextmenu="return false" -->
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,6 +15,8 @@
 
 	<option value="mol">molarity</option>
 		<option value="nor">normality</option>
+		<option value="molity">mol<->norm</option>
+
 
 	</select>
 <div class="row mt-5"  id="main">
@@ -53,13 +56,12 @@
 <div class="row">
 	<center>
 	<div class="col-12">
-		<button class=" col-6 btn  bg-info" onclick="caluclate()" ><font size="2px">caluclate</font></button>
-
+	<button class=" col-6 btn  bg-info" onclick="caluclate()" ><font size="2px">caluclate</font></button>
 		</div>
 </center>
 	</div>
 	</div>
-			<br/>
+	<br/>
 	<br/>
 	<br/>
 	
