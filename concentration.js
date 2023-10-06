@@ -41,5 +41,10 @@ else if(con=="mol")
 	window.location="index.html"
 
 }
+else if(con=="molity")
+{
+	window.location="molarity.html"
+
+}
 
 }
