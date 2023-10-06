@@ -1,13 +1,21 @@
 concen=(con)=>
 {
-if(con=="mol")
+if(con=="nor")
+{
+	window.location="normal.html"
+}
+else if(con=="mol")
 {
 	window.location="index.html"
-}
-else if(con=="nor"){
-	window.location="normal.html"
 
 }
+else if(con=="molity")
+{
+	window.location="molarity.html"
+
+}
+
+
 }
 var gewt;
 chemical=(val)=>
@@ -81,14 +89,14 @@ caluclate=()=>
 {
 	if(normality.value=="")
 	{
-		let mol=(weight.value*1000)/(gewt*vol.value)
+		let mol=(weight.value*1000)/(gewt*volume.value)
 		normality.value=mol;
 	}
 	
 	else if(volume.value=="")
 	{
 		let vol=(weight.value*1000)/(normality.value*gewt)
-		vol.value=vol;
+		volume.value=vol;
 
 	}
 	else if(weight.value=="")
@@ -99,6 +107,15 @@ caluclate=()=>
 	else{
 		alert('The unknown value should be empty')
 	}
+}
+
+}
+document.onkeydown=(cod)=>{
+
+if(cod.key==="i")
+{
+return false
+// document.addEventListner(contextmenu,"return false")
 }
 
 }
